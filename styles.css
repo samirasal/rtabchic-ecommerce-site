@@ -102,7 +102,7 @@ body {
 }
 
 #hero {
-  background-image: url("/background-image1.jpg");
+  background-image: url("/p1-copy.jpg");
   height: 100vh;
   width: 100%;
   background-position: top 25% right 0%;
@@ -167,7 +167,7 @@ body {
   width: 90%;
   margin-bottom: 20px;
 }
-#feature .feature-box-time{
+#feature .feature-box-time {
   width: 190px;
   text-align: 25px;
   padding: 25px 15px;
@@ -178,4 +178,63 @@ body {
 }
 #feature .feature-box-time:hover {
   box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+#product1 {
+  text-align: center;
+}
+#product1 .pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+  margin: 15px 0;
+  transition: 0.2s ease;
+}
+#product1 .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+#product1 .pro .star {
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 100px;
+}
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+/* #product1 .pro .description{
+  text-align: start; 
+   padding: 10px 0px; 
+} */
+
+#product1 .pro .description span {
+  color: #606063;
+  font: size 12px;
+}
+#product1 .pro .description h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+#product1 .pro .description h4{
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #CE4851;
+}
+#product1 .pro .cart{
+  height: 20px;
+  width: 40px;
+  line-height: 60px;
+  border: 70%;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  margin: 10px 90px;
 }
