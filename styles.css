@@ -401,3 +401,76 @@ body {
   color: black;
   border: 1px solid  #cce7d0;
 }
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+}
+footer .col{ 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  
+}
+footer h4{
+font-size: 14px;
+padding-bottom: 20px;
+color: #C8A55D;
+padding-top: 10px;
+}
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
+  color: white;
+  padding: 5px;
+}
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+footer .follow img{
+  margin: 0px 5px;
+}
+footer .copyright{
+  width: 100%;
+  text-align: center;
+  margin: 5px;
+}
+
+footer input{
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+}
+footer button{
+  font-size: 14px;
+  font-weight: 700;
+  padding: 11px 18px;
+  cursor: pointer;
+  color: black;
+  background-color: #d49504;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  outline: none;
+  transition: 0.2s;
+  /* display: block; */
+  margin: 20px; 
+
+}
+
+  
+  /* border-radius: 30px 30px; */
+  /* padding: 10px 40px 10px 40px; */
+  
+  
+  
+ 
