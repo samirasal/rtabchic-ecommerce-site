@@ -59,18 +59,17 @@
         <input type="number" value="1" />
         <button class="normal">Add To Cart</button>
         <h4>Product Details</h4>
-        <span>African beads are a traditional art form used in adornment and
+        <span
+          >African beads are a traditional art form used in adornment and
           communication across the African continent. They come in various
           shapes, sizes, and colors, each with a specific meaning and
           significance. Beads were historically used as currency, and their
           value was determined by the material they were made of, the rarity of
           the material, and the skill of the craftsman. Today, African beads are
-          still highly valued for their beauty and cultural significance. They
-          are used in jewelry making, clothing, and home decor, and they can be
-          made from a range of materials, including glass, bone, stone, and
-          clay.</span>
+          still highly valued for their beauty and cultural significance.</span
+        >
       </div>
-    </section>     
+    </section>
     <footer class="section-p1">
       <div class="col">
         <img src="/LOGO.jpg" alt="" width="120" />
@@ -121,22 +120,21 @@
       </div>
     </footer>
     <script>
-        var MainImg = document.getElementById("MainImg");
-        var smallImg = document.getElementsByClassName("small-img");
+      var MainImg = document.getElementById("MainImg");
+      var smallImg = document.getElementsByClassName("small-img");
 
-        smallImg[0].onclick = function(){
-            MainImg.src = smallImg[0].src;
-        }
-          smallImg[1].onclick = function(){
-            MainImg.src = smallImg[1].src;
-        }
-          smallImg[2].onclick = function(){
-            MainImg.src = smallImg[2].src;
-        }
-          smallImg[3].onclick = function(){
-            MainImg.src = smallImg[3].src;
-        }
-
+      smallImg[0].onclick = function () {
+        MainImg.src = smallImg[0].src;
+      };
+      smallImg[1].onclick = function () {
+        MainImg.src = smallImg[1].src;
+      };
+      smallImg[2].onclick = function () {
+        MainImg.src = smallImg[2].src;
+      };
+      smallImg[3].onclick = function () {
+        MainImg.src = smallImg[3].src;
+      };
     </script>
     <script src="script.js"></script>
   </body>
