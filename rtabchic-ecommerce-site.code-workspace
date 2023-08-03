@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "rtabchic-ecommerce-site",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "rtabchic-ecommerce-site"
+  }
+}

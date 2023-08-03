@@ -133,7 +133,7 @@ body {
 }
 
 #hero {
-  background-image: url("/p1-copy.jpg");
+  background-image: url("/p1.jpg");
   height: 100vh;
   width: 100%;
   background-position: top 25% right 0%;
@@ -589,11 +589,29 @@ footer button {
     width: 28%;
     margin: 10px 10px;
   }
-   /* #prodetails {
+  /* #prodetails {
     display: flex;
     flex-direction: column;
     width: 100%;
   } */
+}
+
+/* About Page */
+#page-header.about-header {
+  background-image: url("explore\ background7.jpeg");
+  width: 100%;
+  height: 80vh;
+}
+#about-head {
+  display: flex;
+  align-items: center;
+}
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+#about-head div {
+  padding-left: 40px;
 }
 
 @media (max-width: 477px) {
@@ -653,30 +671,36 @@ footer button {
     margin: 15px 0 15px 0;
     padding: 1px;
   }
-/* Single Product */
+  /* Single Product */
   #prodetails {
     display: flex;
-   flex-wrap: wrap;
-   /* width: 100%;
+    flex-wrap: wrap;
+    /* width: 100%;
    justify-content: center; */
-   
-
-}
-#prodetails .single-pro-image {
+  }
+  #prodetails .single-pro-image {
     width: 100%;
     margin-right: 0px;
-  
-}
-  
-  #prodetails .single-pro-details{
+  }
+
+  #prodetails .single-pro-details {
     width: 100%;
-   
   }
-  #prodetails .single-pro-details button{
-   margin-top: 10px;
+  #prodetails .single-pro-details button {
+    margin-top: 10px;
   }
 
-
+  /* About Page */
+  #about-head {
+    flex-direction: column;
+  }
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #about-head div {
+    padding-left: 0px;
+  }
 }
 
 /* Shop page */
