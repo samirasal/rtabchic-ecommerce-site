@@ -701,6 +701,19 @@ footer button {
   #about-head div {
     padding-left: 0px;
   }
+  /* Contact Page */
+  #contact-details {
+    
+    flex-direction: column;
+   
+  }
+  #contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #contact-details .map {
+    width: 100%;
+  }
 }
 
 /* Shop page */
@@ -804,18 +817,18 @@ footer button {
   font-size: 12px;
 }
 #contact-details .details h2 {
-  font-size: 26px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 30px;
   padding: 20px 0;
 }
 #contact-details .details h3 {
-  font-size: 16px;
+  font-size: 14px;
   padding-bottom: 15px;
 }
 #contact-details .details li {
   list-style: none;
   display: flex;
-  padding: 10px 0;
+  padding: 10px 0px;
 }
 #contact-details .details li img {
   margin-right: 12px;
@@ -825,7 +838,7 @@ footer button {
   font-size: 14px;
 }
 #contact-details .map {
-  width: 55%;
+  width: 100%;
   height: 400px;
 }
 #contact-details .map iframe {
